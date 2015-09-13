@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #ff9800;
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +34,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #ef6c00;
   line-height: 29px;
   padding: 10px;
 }
@@ -42,7 +42,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
+  color: #fb8c00;
   line-height: 22px;
 }
 
@@ -65,7 +65,7 @@ h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #78909c;
   line-height: 16px;
   float: left;
 }
@@ -73,7 +73,7 @@ h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #78909c;
   line-height: 16px;
   float: right;
 
@@ -86,7 +86,7 @@ p {
 }
 
 a {
-  color: #1199c3;
+  color: #00acc1;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -95,12 +95,12 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #ffab40;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #ffab40;
   display: none;
 }
 
@@ -109,7 +109,7 @@ a {
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #ff9800;
 }
 
 .white-text {
@@ -117,19 +117,16 @@ a {
   color: #fff;
 }
 
-.gray {
-  background-color: #f3f3f3;
+.light-blue {
+  background-color: #bbdefb;
   padding-bottom: 10px;
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4a4a4a;
-}
 
 /* TODO: Replace with image later */
-#header {
-  background-color: #484848;
+.blue {
+  background-color: #2196f3;
 }
 
 .flex-box {
@@ -152,7 +149,7 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
+  max-width: 200px;
   display: none;
 }
 
@@ -211,4 +208,34 @@ span {
   .biopic {
     display: block;
   }
+}
+
+
+/* Additional Style */
+.role {
+  text-transform: capitalize;
+  color: white;
+}
+.project-entry img {
+  max-width: 300px;
+  max-height: 500px;
+}
+.education-entry em {
+  color: #37474f;
+}
+.button {
+  color: #1e88e5;
+}
+nav {
+  background-color: #0d47a1;
+  text-align: center;
+  padding: 20px 0;
+}
+nav > a {
+  display: inline-block;
+  color: #e0e0e0;
+  margin: 10px;
+}
+nav > a:hover {
+ color: #757575;
 }
